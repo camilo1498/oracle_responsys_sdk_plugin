@@ -1,12 +1,12 @@
 import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:oracle_responsys_sdk_plugin/oracle_responsys_sdk_plugin_method_channel.dart';
+import 'package:oracle_responsys_sdk_plugin/oracle_responsive_sdk_plugin_method_channel.dart';
 
 void main() {
   TestWidgetsFlutterBinding.ensureInitialized();
 
-  MethodChannelOracleResponsiveSdkPugin platform =
-      MethodChannelOracleResponsiveSdkPugin();
+  MethodChannelOracleResponsiveSdkPlugin platform =
+      MethodChannelOracleResponsiveSdkPlugin();
   const MethodChannel channel = MethodChannel('oracle_responsys_sdk_plugin');
 
   setUp(() {
